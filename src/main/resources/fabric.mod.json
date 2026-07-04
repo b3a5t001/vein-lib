@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "vein-lib",
+	"version": "${version}",
+	"name": "Vein Lib",
+	"description": "A lightweight Fabric library that adds data-driven massive ore veins to Minecraft, allowing datapacks and mods to create and customize large ore vein generation.",
+	"authors": [
+		"B3a5t001"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/b3a5t001/vein-lib"
+	},
+	"license": "MIT",
+	"icon": "assets/vein-lib/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.b3a5t001.VeinLib"
+		]
+	},
+	"mixins": [
+		"vein-lib.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
