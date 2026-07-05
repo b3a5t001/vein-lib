@@ -1,0 +1,30 @@
+{
+	"min_y": 0,
+	"max_y": 50,
+	"dimension": "minecraft:overworld",
+	"selector": "negative",
+	"filler": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:andesite"
+		}
+	},
+	"ore": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:coal_ore"
+		}
+	},
+	"raw": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:coal_block"
+		}
+	},
+	"chances": {
+		"filler": 0.7,
+		"ore": 0.28,
+		"raw": 0.02
+	},
+	"cannot_replace": "#vein-lib:ore_vein_cannot_replace"
+}

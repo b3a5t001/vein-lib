@@ -1,0 +1,10 @@
+{
+	"pack": {
+		"description": "Vein Lib Test Veins",
+		"min_format": [
+			107,
+			1
+		],
+		"max_format": 107
+	}
+}

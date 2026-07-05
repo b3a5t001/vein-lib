@@ -1,0 +1,30 @@
+{
+	"min_y": 8,
+	"max_y": 118,
+	"dimension": "minecraft:the_nether",
+	"selector": "any",
+	"filler": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:blackstone"
+		}
+	},
+	"ore": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:nether_quartz_ore"
+		}
+	},
+	"raw": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:quartz_block"
+		}
+	},
+	"chances": {
+		"filler": 0.7,
+		"ore": 0.28,
+		"raw": 0.02
+	},
+	"cannot_replace": "#vein-lib:ore_vein_cannot_replace"
+}

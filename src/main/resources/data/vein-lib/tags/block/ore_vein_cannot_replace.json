@@ -1,0 +1,11 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:bedrock",
+		"#minecraft:grass_blocks",
+		"#minecraft:dirt",
+		"#minecraft:sand",
+		"minecraft:water",
+		"minecraft:lava"
+	]
+}

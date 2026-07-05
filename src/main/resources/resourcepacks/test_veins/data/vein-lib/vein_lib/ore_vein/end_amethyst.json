@@ -1,0 +1,30 @@
+{
+	"min_y": 0,
+	"max_y": 80,
+	"dimension": "minecraft:the_end",
+	"selector": "any",
+	"filler": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:calcite"
+		}
+	},
+	"ore": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:amethyst_block"
+		}
+	},
+	"raw": {
+		"type": "minecraft:simple_state_provider",
+		"state": {
+			"Name": "minecraft:budding_amethyst"
+		}
+	},
+	"chances": {
+		"filler": 0.7,
+		"ore": 0.28,
+		"raw": 0.02
+	},
+	"cannot_replace": "#vein-lib:ore_vein_cannot_replace"
+}
